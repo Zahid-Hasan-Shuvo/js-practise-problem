@@ -15,27 +15,38 @@
 //   const result=sum/3;
 //   console.log(result);
 //   return result;
- 
 
 // }
 // make_avg(1,2,3)
 
 // 3. Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
 
-var array= [3,6,5,9,2];
+// var array= [3,6,5,9,2];
 
-function make_avg(array){
+// function make_avg(array){
 
-  let sum=0;
+//   let sum=0;
 
-for (var i=0; i<array.length; i++) {
+// for (var i=0; i<array.length; i++) {
 
-   sum=sum+array[i];
-  
+//    sum=sum+array[i];
+
+// }
+
+// const avg=sum/(array.length);
+//   console.log(avg);
+
+// }
+// make_avg(array);
+
+// 4.write a function called odd_event() which takes an integer value and tells whether this value is even or odd. You need to do it in 4 ways:
+// Has return + has parameter
+// no return + has parameter
+
+function odd_event(num) {
+  if (num % 2 === 1) return "Even";
+  else return "odd";
 }
+ const sum = odd_event(5);
 
-const avg=sum/(array.length);
-  console.log(avg);
-  
-}
-make_avg(array);
+console.log(sum);
